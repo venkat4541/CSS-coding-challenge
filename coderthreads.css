@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: Helvetica;
+    background-color: #F4F2E9;
+}
+
+header {
+    background-color: #A3C5C3;
+    margin-bottom: 25px;
+}
+
+.logo img {
+    width: 200px;
+    height: 194px;
+}
+
+nav {
+    height: 50px;
+    background-color: #333D51;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    float: left;
+    list-style-type: none;
+}
+
+.navbar li a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 3em;
+    padding: 0 35px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+.navbar li.active a {
+    text-decoration: underline;
+}
+
+section {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.categories {
+    float: left;
+    margin-right: 30px;
+}
+
+.categories h2 {
+    margin-bottom: 15px;
+}
+
+.categories li {
+    list-style-type: none;
+    font-size: 21px;
+    border: none;
+    border-bottom: 3px solid #333D51;
+}
+
+.category-button {
+    display: block;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    width: 150px;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.category-button:hover {
+    background-color: #D2AC2B;
+}
+
+.category-button-selected {
+    cursor: default;
+}
+
+.products {
+    width: 600px;
+    float: left;
+}
+
+.products h2 {
+    text-transform: uppercase;
+}
+
+.products ul {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.products li {
+    list-style-type: none;
+    background: #dcdbdb;
+    min-height: 133px;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.products img {
+    display: block;
+    float: left;
+    height: 133px;
+    width: 200px;
+}
+
+.products div {
+    display: inline-block;
+    padding: 0 15px;
+    width: 340px;
+}
+
+.product-title {
+    display: block;
+    font-weight: 900;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.product-price {
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+    padding-top: 5px;
+}
+
+footer {
+    font-size: 14px;
+    background-color: #A3C5C3;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
