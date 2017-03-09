@@ -14,6 +14,10 @@ header {
     margin-bottom: 25px;
 }
 
+.logo {
+  text-align: center;
+}
+
 .logo img {
     width: 200px;
     height: 194px;
@@ -37,6 +41,7 @@ nav {
     line-height: 3em;
     padding: 0 35px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .navbar li a:hover:not(.active) {
@@ -78,7 +83,7 @@ section {
     text-align: center;
 }
 
-.category-button:hover {
+.category-button-selected, .category-button:hover {
     background-color: #D2AC2B;
 }
 
@@ -96,29 +101,34 @@ section {
 }
 
 .products ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     margin: 10px 0;
 }
 
 .products li {
-    list-style-type: none;
-    background: #dcdbdb;
-    min-height: 133px;
-    margin: 10px 0;
-    padding: 15px;
+  flex-wrap: wrap;
+  width: 43%;
+  list-style-type: none;
+  background: #dcdbdb;
+  min-height: 133px;
+  margin: 10px 0;
+  padding: 15px;
 }
 
 .products img {
     display: block;
     float: left;
     height: 133px;
-    width: 200px;
+    width: 100%;
 }
 
 .products div {
     display: inline-block;
-    padding: 0 15px;
-    width: 340px;
+    padding: 10px 0;
+    width: 100%;
 }
 
 .product-title {
